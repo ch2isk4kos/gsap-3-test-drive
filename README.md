@@ -31,7 +31,7 @@ gsap.fromTo();
 
 <br>
 
-#### `gsap.to()`
+#### [gsap.to()](<https://greensock.com/docs/v3/GSAP/gsap.to()>)
 
 Defines the destination values.
 
@@ -43,7 +43,7 @@ gsap.to(".box", { rotation: 27, x: 100, duration: 1 });
 
 <br>
 
-#### `gsap.from()`
+#### [gsap.from()](<https://greensock.com/docs/v3/GSAP/gsap.from()>)
 
 Defines where the values should start and animates to the current state.<br>
 _Ideal for animating objects onto the screen._
