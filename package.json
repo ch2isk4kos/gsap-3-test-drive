@@ -1,0 +1,19 @@
+{
+  "name": "gsap-3-test-drive",
+  "version": "1.0.0",
+  "description": "<!-- ![GSAP Logo](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.seekicon.com%2Ffree-icon-download%2Fgreensock-icon_1.png&f=1&nofb=1&ipt=9c1fe75b0647c24f9b7a84305fa4f33a42fd053e7817ab4caf5ef3b50aa9a784&ipo=images) -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch2isk4kos/gsap-3-test-drive.git"
+  },
+  "author": "Chris Kakos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ch2isk4kos/gsap-3-test-drive/issues"
+  },
+  "homepage": "https://github.com/ch2isk4kos/gsap-3-test-drive#readme"
+}
