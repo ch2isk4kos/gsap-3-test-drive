@@ -61,7 +61,7 @@ gsap.fromTo(".box", { opacity: 0 }, { opacity: 0.5, duration: 1 });
 
 ### [Timeline](https://greensock.com/docs/v3/GSAP/Timeline)
 
-A _Timeline_ is a container of Tweens.
+A _Timeline_ is a container of Tweens.<br>
 It is a sequencing tool that allows you to position animations in a timely manner.
 
 <br>
