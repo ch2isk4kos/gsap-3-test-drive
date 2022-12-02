@@ -56,3 +56,52 @@ _As opposed to `to()` or `from()` which use the current state as either start/en
 // Animate ".box" from an opacity of 0 to an opacity of 0.5
 gsap.fromTo(".box", { opacity: 0 }, { opacity: 0.5, duration: 1 });
 ```
+
+<br>
+
+### [Timeline](https://greensock.com/docs/v3/GSAP/Timeline)
+
+A _Timeline_ is a container of Tweens.
+It is a sequencing tool that allows you to position animations in a timely manner.
+
+<br>
+
+```js
+const tl = gsap.timeline();
+
+//sequenced one-after-the-other
+tl.to(".box1", { duration: 2, x: 100 }) //notice that there's no semicolon!
+  .to(".box2", { duration: 1, y: 200 })
+  .to(".box3", { duration: 3, rotation: 360 });
+```
+
+<br>
+
+Methods that control _Tweens_ and _Timelines_ include:<br>
+[pause()](<https://greensock.com/docs/v3/GSAP/Tween/pause()>)<br>
+[play()](<https://greensock.com/docs/v3/docs/v3/GSAP/Tween/play()>)<br>
+[progress()](<https://greensock.com/docs/v3/GSAP/Tween/progress()>)<br>
+[restart()](<https://greensock.com/docs/v3/GSAP/Tween/restart()>)<br>
+[resume()](<https://greensock.com/docs/v3/GSAP/Tween/resume()>)<br>
+[reverse()](<https://greensock.com/docs/v3/GSAP/Tween/reverse()>)<br>
+[seek()](<https://greensock.com/docs/v3/GSAP/Tween/seek()>)<br>
+[time()](<https://greensock.com/docs/v3/GSAP/Tween/time()>)<br>
+[duration()](<https://greensock.com/docs/v3/GSAP/Tween/duration()>)<br>
+[kill()](<https://greensock.com/docs/v3/GSAP/Tween/kill()>)
+
+<br>
+
+Reference the _Tween_ or _Timeline_ instance with a variable to control:
+
+```js
+//you only need to create a variable if you want to control it later...
+const tween = gsap.to(...);
+const tl = gsap.timeline(); //"tl" short for timeline
+tl.to(...).to(...); //add animations.
+
+//now we can control them...
+tween.pause();
+tween.timeScale(2); //double speed
+tl.seek(3); //jump to 3 seconds in
+tl.progress(0.5); //halfway through
+```
