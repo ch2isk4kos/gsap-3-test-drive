@@ -6,6 +6,53 @@
 
 <br>
 
+## Installation
+
+### CDN
+
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GSAP Installation</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
+```
+
+`index.js`
+
+```js
+console.log({ gsap });
+```
+
+<br>
+
+### NPM
+
+`from console`
+
+> npm install gsap
+
+`index.js`
+
+```js
+import { gsap } from "gsap";
+```
+
+<br>
+
 ## Resources
 
 [GreenSock](https://greensock.com/cheatsheet/) _cheat sheet_<br>
