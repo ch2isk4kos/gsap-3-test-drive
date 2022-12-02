@@ -6,6 +6,13 @@
 
 <br>
 
+## Resources
+
+[GreenSock](https://greensock.com/cheatsheet/) _cheat sheet_<br>
+[GreenSock](https://greensock.com/docs/) _documentation_
+
+<br>
+
 ## Installation
 
 ### CDN
@@ -50,13 +57,6 @@ console.log({ gsap });
 ```js
 import { gsap } from "gsap";
 ```
-
-<br>
-
-## Resources
-
-[GreenSock](https://greensock.com/cheatsheet/) _cheat sheet_<br>
-[GreenSock](https://greensock.com/docs/) _documentation_
 
 <br>
 
