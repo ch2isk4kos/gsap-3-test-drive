@@ -6,7 +6,23 @@
 
 <br>
 
-### Resources
+## Resources
 
 [GreenSock](https://greensock.com/cheatsheet/) _cheat sheet_<br>
 [GreenSock](https://greensock.com/docs/) _documentation_
+
+<br>
+
+## Concepts
+
+### [Tween](https://greensock.com/docs/v3/GSAP/Tween)
+
+You can think of a _Tween_ as a high-performance property setter.
+
+<br>
+
+```js
+gsap.to();
+gsap.from();
+gsap.fromTo();
+```
