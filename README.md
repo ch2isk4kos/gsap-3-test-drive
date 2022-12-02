@@ -17,10 +17,7 @@
 
 ### [Tween](https://greensock.com/docs/v3/GSAP/Tween)
 
-You can think of a _Tween_ as a high-performance property setter.
-
-<br>
-
+You can think of a _Tween_ as a high-performance property setter.<br>
 Common methods for creating a _Tween_ are as followed:
 
 ```js
