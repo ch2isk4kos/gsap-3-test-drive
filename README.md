@@ -53,3 +53,15 @@ _Ideal for animating objects onto the screen._
 // to the current values (an opacity of 1 and y position of 0).
 gsap.from(".class", { opacity: 0, y: 100, duration: 1 });
 ```
+
+<br>
+
+#### [gsap.fromTo()](<https://greensock.com/docs/v3/GSAP/gsap.fromTo()>)
+
+Defines both the starting and ending values.<br>
+_As opposed to `to()` or `from()` which use the current state as either start/end._
+
+```js
+// Animate ".box" from an opacity of 0 to an opacity of 0.5
+gsap.fromTo(".box", { opacity: 0 }, { opacity: 0.5, duration: 1 });
+```
