@@ -21,8 +21,22 @@ You can think of a _Tween_ as a high-performance property setter.
 
 <br>
 
+Common methods for creating a _Tween_ are:
+
 ```js
 gsap.to();
 gsap.from();
 gsap.fromTo();
+```
+
+<br>
+
+#### `gsap.to()`
+
+Defines the destination values.
+
+```js
+// Rotate and move elements with a class of "box" ("x" is a shortcut for a translateX() transform)
+// over the course of 1 second.
+gsap.to(".box", { rotation: 27, x: 100, duration: 1 });
 ```
