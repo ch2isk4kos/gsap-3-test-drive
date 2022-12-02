@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  padding: 1.25em;
+  margin: 1.25em;
+  text-align: center;
+  border: 5px solid blue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  margin: 1.25em;
+  padding: 1.25em;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid blue;
+}
