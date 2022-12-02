@@ -40,3 +40,16 @@ Defines the destination values.
 // ("x" is a shortcut for a translateX() transform) over the course of 1 second.
 gsap.to(".box", { rotation: 27, x: 100, duration: 1 });
 ```
+
+<br>
+
+#### `gsap.from()`
+
+Defines where the values should start and animates to the current state.<br>
+_Ideal for animating objects onto the screen._
+
+```js
+// Animate ".class" from an opacity of 0 and a y position of 100 (like transform: translateY(100px))
+// to the current values (an opacity of 1 and y position of 0).
+gsap.from(".class", { opacity: 0, y: 100, duration: 1 });
+```
