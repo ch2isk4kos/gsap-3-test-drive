@@ -27,3 +27,13 @@ header {
   align-items: center;
   border: 5px solid blue;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid red;
+}
